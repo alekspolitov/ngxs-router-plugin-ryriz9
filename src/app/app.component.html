@@ -1,0 +1,7 @@
+<div>
+  <a routerLink="/" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Home (root)</a>
+  <a routerLink="/account" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Account Index</a>
+  <a routerLink="/account/notifications" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Account - Notifications</a>
+  <a routerLink="/account/notifications/inbox" [routerLinkActive]="'active'">Account - Notifications - Inbox</a>
+</div>
+<router-outlet></router-outlet>
